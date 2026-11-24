@@ -1,12 +1,5 @@
 'use strict';
 
-/* ==========================================================
-   Arthur Parente — Portfolio v5
-   JavaScript puro, sem dependências. Cada módulo é isolado e
-   falha de forma silenciosa se o elemento não existir.
-   Animações: apenas transform/opacity. Respeita
-   prefers-reduced-motion em todos os módulos.
-   ========================================================== */
 
 const root = document.documentElement;
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
